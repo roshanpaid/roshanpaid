@@ -392,7 +392,7 @@ def InfoAcc(username, domain):
         followers = int(followers)
     except:
         followers = 0
-    if followers < 91:
+    if followers < 100:
         return  
 
     following = account_info.get('following_count', '')
